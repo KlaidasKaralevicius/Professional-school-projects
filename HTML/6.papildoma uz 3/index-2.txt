@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor rezultatas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=AlegreyaSans' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" target="_blank">HTML</a>
+        <a href="index-2.html" target="_blank">CSS</a>
+        <a href="index-3.html" target="_blank">JAVASCRIPT</a>
+    </nav>
+    <header>CSS</header>
+    <div class="block"><br>
+        <h2 id="CSS"><img class="css" src="https://image.flaticon.com/icons/svg/1069/1069104.svg" alt="CSS icon"><span
+                class="headline">What is Css?</span></h2><br>
+        <p>CSS is used to control the style of a web document in a simple and easy way. CSS is the acronym for
+            "Cascading Style
+            Sheet". This tutorial covers both the versions CSS1,CSS2 and CSS3, and gives a complete understanding of
+            CSS,
+            starting from its basics to advanced concepts.</p><br>
+        <h3>Why to Learn CSS?</h3><br>
+        <p>Cascading Style Sheets, fondly referred to as CSS,
+            is a simple design language intended to simplify the process of making web pages presentable. CSS is a MUST
+            for
+            students and working professionals to become a great Software Engineer specially when they are working in
+            Web
+            Development Domain. I will list down some of the key advantages of learning CSS:</p><br>
+        <ul>
+            <li>Create Stunning Web site - CSS
+                handles the look and feel part of a web page. Using CSS, you can control the color of the text, the
+                style of fonts,
+                the spacing between paragraphs, how columns are sized and laid out, what background images or colors are
+                used,
+                layout designs,variations in display for different devices and screen sizes as well as a variety of
+                other effects.</li>
+            <li>Become a web designer - If you want to start a carrer as a professional web designer, HTML and CSS
+                designing is a
+                must skill.</li>
+            <li>Control web - CSS is easy to learn and understand but it provides powerful control over the presentation
+                of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML.</li>
+            <li>Learn other languages - Once you understands the basic of HTML and CSS then other related technologies
+                like javascript,
+                php, or angular are become easier to understand.</li>
+        </ul>
+    </div>
+</body>
+
+</html>

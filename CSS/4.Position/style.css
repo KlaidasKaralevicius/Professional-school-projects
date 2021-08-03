@@ -1,0 +1,122 @@
+body {
+    background-color: #cce7f4;
+    margin: 4% 25%;
+}
+p {
+    text-align: center;
+}
+.first {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 150%;
+}
+.second {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box {
+    margin-left: 33%;
+    position: relative;
+    width: 33%;
+    height: 350px;
+}
+.topBread {
+    background-color: #f8b300;
+    border-radius: 55px 55px 10px 10px;
+    border-bottom: 5px solid #ca9304;
+    width: 100%;
+    height: 50px;
+}
+.crop {
+    background-color: #fcd05d;
+    border: 1px solid #fcd05d;
+    border-radius: 50%;
+    width: 6%;
+    height: 6px;
+}
+.crop.topLeft {
+    position: absolute;
+    top: 4%;
+    left: 25%;
+}
+.crop.topMiddle {
+    position: absolute;
+    top: 4%;
+    left: 47%;
+}
+.crop.topRight {
+    position: absolute;
+    top: 4%;
+    right: 25%;
+}
+.crop.bottomLeft {
+    position: absolute;
+    top: 9%;
+    left: 35%;
+}
+.crop.bottomRight {
+    position: absolute;
+    top: 9%;
+    right: 35%;
+}
+.salad {
+    background-color: #67af43;
+    width: 100%;
+    height: 11px;
+    margin: 2px 0;
+}
+.salad.top {
+    border-radius: 6px 6px 0 0;
+    border-bottom: 2px solid #569437;
+}
+.salad.bottom {
+    border-radius: 0 0 6px 6px;
+    border-top: 2px solid #569437;
+}
+.cheese {
+    background-color: #f5e03d;
+    border-bottom:3px solid #d3c139;
+    border-radius: 6px;
+    width: 100%;
+    height: 13px;
+    margin: 2px 0;
+}
+.tomato {
+    background-color: #e3431e;
+    border-bottom: 5px solid #c73a1a;
+    border-radius: 6px;
+    max-width: 49%;
+    width: 49%;
+    height: 15px;
+    align-self: center;
+    margin: 2px 0 0 0;
+    display: inline-block;
+}
+.patty {
+    background-color: #694032;
+    border-bottom:5px solid #462c23;
+    border-radius: 16px;
+    width: 98%;
+    height: 35px;
+    margin: 2px 0;
+}
+.bottomBread {
+    background-color: #f8b300;
+    border-top: 6px solid #ca9304;
+    border-radius: 10px 10px 55px 55px;
+    width: 100%;
+    height: 50px;
+}
+.price {
+    position: absolute;
+    color: #cce7f4;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #e3431e;
+    border-radius: 5px;
+    transform: rotate(-25deg);
+    padding: 2%;
+    width: 33%;
+    font-size: 120%;
+    bottom: 18%;
+    right: -10%;
+}

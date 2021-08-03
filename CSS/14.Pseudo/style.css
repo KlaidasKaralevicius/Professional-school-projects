@@ -1,0 +1,100 @@
+.links {
+    list-style-type: none;
+}
+.links li {
+    display: inline;
+}
+.links a {
+    text-decoration: none;
+}
+.pseudo-class a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+/* 1. Pseudo klasė */
+.before-p::before {
+    content: "tekstas prieš";
+    color: tomato;
+    margin-right: 3px;
+}
+.after-p::after {
+    content: "tekstas po";
+    color: tomato;
+    margin-left: 3px;
+}
+.before-img::before {
+    content: "";
+}
+.after-img::after {
+    content: "";
+}
+.before-element::before {
+    content: " ";
+    margin-right: 3px;
+    width: 150px;
+    height: 7px;
+    display: inline-block;
+    background-color: tomato;
+}
+.after-element::after {
+    content: " ";
+    margin-left: 3px;
+    width: 150px;
+    height: 7px;
+    display: inline-block;
+    background-color: tomato;
+}
+/* 2. Pseudo elementai */
+.selection p::selection {
+    background-color: tomato;
+}
+/* 3. Selection */
+.first-letter p::first-letter {
+    font-size: 24px;
+    color :tomato;
+}
+/* 4. Pirma raidė */
+.first-line p::first-line {
+    background-color: tomato;
+    font-weight: bold;
+}
+/* 5. Pirma eilutė */
+.child-selector .odd li:nth-child(odd) {
+    background-color: tomato;
+}
+.child-selector .even li:nth-child(even) {
+    background-color: tomato;
+}
+.child-selector .choose li:nth-child(3) {
+    text-decoration: underline;
+}
+.child-selector .choose li:nth-child(4) {
+    color: tomato;
+}
+.child-selector .choose li:nth-child(5) {
+    background-color: tomato;
+}
+.child-selector .first li:first-child {
+    color: tomato;
+}
+.child-selector .last li:last-child {
+    color: tomato;
+}
+/* 6. Child selektorius */
+.transition div {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    transition-delay: 0.5s;
+}
+.transition .color:hover {
+    background-color: rgb(21, 143, 151);
+}
+.transition .size:hover {
+    width: 100%;
+    transition: 1s;
+}
+.transition .position:hover {
+    margin-left: 75px;
+}
+/* 7. Perėjimas */

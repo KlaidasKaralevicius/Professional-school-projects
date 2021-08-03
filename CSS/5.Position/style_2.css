@@ -1,0 +1,55 @@
+body {
+    background-color: #ffeaf3;
+    margin: 10% 35%;
+}
+.main-box {
+    position: relative;
+    width: 30%;
+    height: 300px;
+}
+.hair {
+    background-color: #40c4df;
+}
+.hair.one {
+    z-index: 4;
+}
+.hair.two{
+    z-index: 3;
+}
+.ear {
+    background-color: #f7c09a;
+}
+.ear.one {
+
+}
+.ear.two {
+
+}
+.face {
+    z-index: 2;
+    background-color: #f7c09a;
+}
+.eye {
+    z-index: 3;
+}
+.eye.one {
+
+}
+.eye.two {
+
+}
+.mouth {
+    z-index: 3;
+}
+.neck {
+    z-index: 1;
+    background-color: #f7c09a;
+}
+.body {
+    background-color: #fc4c60;
+}
+.box {
+    z-index: 1;
+    background-color: white;
+}
+outline #491352

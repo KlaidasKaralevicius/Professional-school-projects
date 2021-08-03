@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <style>
+        body {
+            margin-left:20%;
+            margin-right:20%;
+        }
+    </style>
+</head>
+<body>
+    <a href="www.bloggs.com" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4OdZlmrqCz_k1DvK5xvlkr_Iog0lHcD-PcA&usqp=CAU" width="150" height="150" alt="User's profile picture">
+    </a>
+    <h1>Joe Bloggs</h1>
+    <hr>
+    <h2>Web Developer</h2>
+    <ul>
+        <li>email: <a href="https://outlook.live.com/owa" target="_blank">joe@bloggs.com</a></li>
+        <li>website: <a href="www.bloggs.com" target="_blank">www.bloggs.com</a></li>
+        <li>mobile: <strong>01234567890</strong></li>
+    </ul>
+    <h3>Personal Profile</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. <mark>Curabitur non consequat enim.</mark> Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+    <hr>
+    <h2>Work Experience</h2>
+    <h3>Job Title at Company</h3>
+    <p><em>April 2011 - Present</em></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+    <h3>Job Title at Company</h3>
+    <p><em>Janruary 2007 - March 2011</em></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+    <h3>Job Title at Company</h3>
+    <p><em>October 2004 - December 2006</em></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+    <hr>
+    <h2>Key skill</h2>
+    <ul>
+        <li>Key skill</li>
+        <li>Key skill</li>
+        <li>Key skill</li>
+        <li>Key skill</li>
+        <li>Key skill</li>
+        <li>Key skill</li>
+        <li>Key skill</li>
+        <li>Key skill</li>
+    </ul>
+    <hr>
+    <h3>Education</h3>
+    <h3>College/University</h3>
+    <p><em>Qualification</em></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+    <p><em>Qualification</em></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+</body>
+</html>

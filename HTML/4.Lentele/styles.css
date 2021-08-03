@@ -1,0 +1,41 @@
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:2px 1px;
+    text-align: left;
+    width: 40%;
+    white-space: nowrap;
+}
+.first{
+    table-layout:fixed;
+}
+.first_heading{
+    background-color:#e6e6e6;
+}
+th{
+    background-color:#e6e6e6;
+}
+.Tomato{
+    background-color:#FF6347;
+}
+.Orange{
+    background-color:#FFA500;
+}
+.DodgerBlue{
+    background-color:#1E90FF;
+}
+.MediumSeaGreen{
+    background-color:#3CB371;
+}
+.Gray{
+    background-color:#808080;
+}
+.SlateBlue{
+    background-color:#6A5ACD;
+}
+.Violet{
+    background-color:#EE82EE;
+}
+.LightGray{
+    background-color:#D3D3D3;
+}

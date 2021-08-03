@@ -1,0 +1,90 @@
+h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(172, 13, 13);
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.First_p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.First_p span {
+    font-family: 'Goldman', cursive;
+}
+.Second_p {
+    font-size: 24px;
+}
+.Second_p span {
+    color: mediumvioletred;
+}
+.Third_p {
+    width: 40%;
+}
+.Third_p span {
+    display: block;
+}
+.Fourth_p {
+    border: 4px solid black;
+    font-size: 30px;
+    color: orangered;
+}
+.Fourth_p span {
+    font-size: 20px;
+}
+.Fifth_p {
+    font-style: italic;
+}
+.Fifth_p span {
+ font-weight: bold;
+}
+.Sixth_p {
+    text-decoration: underline;
+}
+.Sixth_p span {
+    text-decoration: line-through;
+}
+.Seventh_p {
+    height: 26px;
+}
+.Seventh_p span {
+    text-transform: uppercase;
+}
+.Eight_p {
+    text-indent: 30px;
+}
+.Eight_p span {
+    background-color: yellow;
+}
+.Nineth_p {
+    background-color: salmon;
+}
+.Nineth_p span {
+    background-color: white;
+}
+.Tenth_p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 30px;
+}
+.Tenth_p span {
+    text-decoration: underline;
+}
+.First_div, .Second_div {
+    width: 50%;
+    height: 200px;
+    background-color: lavenderblush;
+}
+.Second_div {
+    background-color: lawngreen;
+}
+.Third_div, .Fourth_div {
+    width: 50%;
+    height: 200px;
+    background-color: khaki;
+    padding: 20px;
+    border: 5px solid black;
+}
+.Fourth_div {
+    box-sizing: border-box;
+    background-color: lavender;
+}

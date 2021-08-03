@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(221, 249, 255);
+    font-size: 18px;
+    text-align: center; 
+}
+h3 {
+    font-weight: 300;
+    margin-top: -10px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto; 
+}
+tr, td {
+    border: 1px solid black;
+    padding: 2%;
+}
+.players {
+    width: 250px;
+    border-radius: 50%;
+    border: solid 1px white;
+}

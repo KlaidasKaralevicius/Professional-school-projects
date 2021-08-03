@@ -1,0 +1,45 @@
+body {
+    margin: 2% 25%;
+}
+h3 {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.outer {
+    position: relative;
+    border: 1px rgb(253, 59, 59) solid;
+    height: 450px;
+    background-color: rgb(253, 59, 59);
+}
+.corner {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    background-color: white;
+}
+.first {
+    top: 0;
+    left: 0;
+}
+.second {
+    top: 0;
+    right: 0;
+}
+.third {
+    bottom: 0;
+    right: 0;
+}
+.fourth {
+    bottom: 0;
+    left: 0;
+}
+.middle {
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    background-color: white;
+    left: calc(32.5%);
+    top: calc(25%);
+}

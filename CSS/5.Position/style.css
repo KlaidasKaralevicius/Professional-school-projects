@@ -1,0 +1,70 @@
+body {
+    background-color: #b2e4f6;
+    margin: 10% 35%;
+}
+.main-box {
+    position: relative;
+    width: 30%;
+    height: 300px;
+}
+.hair {
+    background-color: #a2725a;
+}
+.hair.one {
+    
+}
+.hair.two{
+    z-index: 3;
+}
+.ear {
+    z-index: 1;
+    background-color: #f7c09a;
+}
+.ear.one {
+
+}
+.ear.two {
+
+}
+.face {
+    z-index: 2;
+    background-color: #f7c09a;
+}
+.eye {
+    z-index: 4;
+    background-color: #ebebeb;
+}
+.eye.one {
+
+}
+.eye.two {
+
+}
+.glasses {
+    z-index: 3;
+}
+.mouth {
+    z-index: 3;
+}
+.neck {
+    z-index: 1;
+    background-color: #f7c09a;
+}
+.body {
+    background-color: #e6e4e6;
+}
+.stripes {
+    z-index: 1;
+    background-color: #00acf0;
+}
+.stripes.one {
+
+}
+.stripes.two {
+
+}
+.box {
+    z-index: 2;
+    background-color: white;
+}
+outlines #003771
